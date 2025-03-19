@@ -7,7 +7,7 @@
  We introduce an efficient and principled method for sampling from a sequence of annealed, geometric-averaged, or product distributions derived from pretrained score-based models. We derive a weighted simulation scheme, which we call Feynman-Kac Correctors (FKCs), based on the celebrated Feynman-Kac, formula by carefully accounting for terms in the appropriate partial differential equations (PDEs). We show the utility of FKC on applications in several domains: classical image generation, multi-conditional molecule design, and sampling from Boltzmann densities.
 
  <p align="center">
-   <img src="assets/fkc_toy.pdf" />
+   <img src="assets/fkc_toy.png" />
  </p>
 
 
@@ -48,7 +48,7 @@ Each experiment has a different procedure and requires installing specific depen
 
 <div align="left">
 
-If you find this code useful in your research, please cite the following paper:
+If you find this code useful in your research, please cite the following paper (expand for bibtex):
 
 <details>
 <summary>
@@ -64,6 +64,7 @@ M. Skreta*, T. Akhound-Sadegh*, V. Ohanesian*, R. Bondesan, A. Aspuru-Guzik, A. 
   year={2025}
 }
 ```
+</details>
 
 ## Contribute
 
