@@ -150,3 +150,27 @@ An example of how to run this as a single workflow can be found in `bash_scripts
 
 To obtain aggregate metrics for all generated molecules, please see `evaluation/process_results.py` and modify the paths, ids, and molecule sizes on line 8 accordingly and then run `python3 evaluation/process_results.py`. You will also need to install [PyTDC](https://tdcommons.ai) with `pip install PyTDC` to evaluate diversity, QED, and SA. 
 
+
+## Citations
+
+If this codebase is useful towards other research efforts please consider citing us.
+
+```
+@misc{skreta2025feynmankac,
+    title={Feynman-Kac Correctors in Diffusion: Annealing, Guidance, and Product of Experts},
+    author={Marta Skreta and Tara Akhound-Sadegh and Viktor Ohanesian and Roberto Bondesan and Alán Aspuru-Guzik and Arnaud Doucet and Rob Brekelmans and Alexander Tong and Kirill Neklyudov},
+    year={2025},
+    eprint={2503.02819},
+    archivePrefix={arXiv},
+    primaryClass={cs.LG}
+}
+```
+
+## Contribute
+
+We welcome issues and pull requests (especially bug fixes) and contributions.
+We will try our best to improve readability and answer questions!
+
+## Licences
+
+This repo is licensed under the [MIT License](https://opensource.org/license/mit/).
