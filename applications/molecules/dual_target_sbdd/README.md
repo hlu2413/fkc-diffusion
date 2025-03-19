@@ -1,4 +1,6 @@
-# FKC: Multi-Target Structure-Based Drug Design
+<div align="center">
+# FKC Experiment: Multi-Target Structure-Based Drug Design
+</div>
 
 <p align="center">
   <img src="assets/fkc_example_29_371.jpg" /> 
