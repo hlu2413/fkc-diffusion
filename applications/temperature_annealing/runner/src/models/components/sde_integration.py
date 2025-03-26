@@ -174,6 +174,14 @@ def euler_maruyama_step(
         drift_xt[i * batch_size : (i + 1) * batch_size] = drift_xt_i
         drift_at[i * batch_size : (i + 1) * batch_size] = drift_at_i
 
+    if x.shape[0] % batch_size != 0:
+        i = x.shape[0] // batch_size
+        drift_xt_i, drift_at_i = sde.f(t, x[i * batch_size :], resampling_interval)
+        diffusion_i = sde.diffusion(t, x[i * batch_size :], diffusion_scale)
+        diffusion[i * batch_size :] = diffusion_i
+        drift_xt[i * batch_size :] = drift_xt_i
+        drift_at[i * batch_size :] = drift_at_i
+
     # update x, log weights, and log density
     dx = drift_xt * dt + diffusion * np.sqrt(dt)
     x_next = x + dx
