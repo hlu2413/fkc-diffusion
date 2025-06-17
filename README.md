@@ -1,7 +1,8 @@
 <h1 align="center">Feynman-Kac Correctors in Diffusion: Annealing, Guidance, and Product of Experts</h1>
 
 <p align="center">
-<a href="https://arxiv.org/abs/2503.02819"><img src="https://img.shields.io/badge/arXiv-b31b1b?style=for-the-badge&logo=arxiv" alt="arXiv"/></a>
+<a href="[https://arxiv.org/abs/2412.17762](https://arxiv.org/abs/2503.02819)"><img src="https://img.shields.io/badge/arXiv-b31b1b?style=for-the-badge&logo=arxiv" alt="arXiv"/></a>
+<a href="https://colab.research.google.com/drive/1rxFvVLcelZuYW96isyb9-DqGJt6qz7nQ"><img src="https://img.shields.io/badge/Colab-e37e3d.svg?style=for-the-badge&logo=googlecolab&logoColor=white" alt="Jupyter"/></a>
 </p>
 
  We introduce an efficient and principled method for sampling from a sequence of annealed, geometric-averaged, or product distributions derived from pretrained score-based models. We derive a weighted simulation scheme, which we call Feynman-Kac Correctors (FKCs), based on the celebrated Feynman-Kac, formula by carefully accounting for terms in the appropriate partial differential equations (PDEs). We show the utility of FKC on applications in several domains: classical image generation, multi-conditional molecule design, and sampling from Boltzmann densities.
